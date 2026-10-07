@@ -1,0 +1,123 @@
+{
+  "users": {
+    "normalUsers": [
+      {
+        "name": "Rahul Sharma",
+        "email": "rahul@test.com",
+        "password": "123456",
+        "role": "user"
+      },
+      {
+        "name": "Priya Mehta",
+        "email": "priya@test.com",
+        "password": "123456",
+        "role": "user"
+      }
+    ],
+    "restaurantOwners": [
+      {
+        "name": "Amit Restaurant",
+        "email": "amit@pizza.com",
+        "password": "123456",
+        "role": "restaurant"
+      },
+      {
+        "name": "Ravi Burgers",
+        "email": "ravi@burger.com",
+        "password": "123456",
+        "role": "restaurant"
+      }
+    ],
+    "admin": {
+      "name": "Super Admin",
+      "email": "admin@test.com",
+      "password": "123456",
+      "role": "admin"
+    }
+  },
+
+  "restaurants": [
+    {
+      "name": "Pizza Palace",
+      "city": "Bangalore",
+      "address": "MG Road, Bangalore",
+      "image": "https://example.com/pizza-palace.jpg"
+    },
+    {
+      "name": "Burger Hub",
+      "city": "Bangalore",
+      "address": "Indiranagar, Bangalore",
+      "image": "https://example.com/burger-hub.jpg"
+    }
+  ],
+
+  "menuItems": {
+    "pizzaPalace": [
+      {
+        "name": "Veg Margherita",
+        "description": "Classic cheese pizza",
+        "price": 299,
+        "category": "Pizza",
+        "isVeg": true,
+        "image": "https://example.com/margherita.jpg"
+      },
+      {
+        "name": "Farmhouse Pizza",
+        "description": "Loaded with veggies",
+        "price": 399,
+        "category": "Pizza",
+        "isVeg": true
+      },
+      {
+        "name": "Chicken Pepperoni",
+        "description": "Spicy non-veg pizza",
+        "price": 449,
+        "category": "Pizza",
+        "isVeg": false
+      }
+    ],
+    "burgerHub": [
+      {
+        "name": "Veg Burger",
+        "description": "Crispy veg patty",
+        "price": 149,
+        "category": "Burger",
+        "isVeg": true
+      },
+      {
+        "name": "Chicken Burger",
+        "description": "Grilled chicken burger",
+        "price": 199,
+        "category": "Burger",
+        "isVeg": false
+      }
+    ]
+  },
+
+  "cartTesting": {
+    "addVegMargherita": {
+      "menuItemId": "REPLACE_WITH_MENU_ID",
+      "quantity": 2
+    },
+    "addFarmhousePizza": {
+      "menuItemId": "REPLACE_WITH_MENU_ID",
+      "quantity": 1
+    },
+    "crossRestaurantTest": {
+      "menuItemId": "BURGER_MENU_ID",
+      "quantity": 1
+    }
+  },
+
+  "orderTesting": {
+    "placeOrder": {
+      "deliveryAddress": "Koramangala, Bangalore"
+    }
+  },
+
+  "paymentTesting": {
+    "mockPayment": {
+      "orderId": "REPLACE_WITH_ORDER_ID"
+    }
+  }
+}
