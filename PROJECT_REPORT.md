@@ -1,7 +1,7 @@
 # Swiggy Backend Clone — Project Report
 
-**Live URL:** `<paste your Render/Railway URL here>`
-**GitHub:** `<paste your repo URL here>`
+**Live URL:** `https://swiggy-backend-sto6.onrender.com/`
+**GitHub:** `https://github.com/akheel0079/swiggy-backend`
 
 ## Admin credentials (for reviewers)
 | Field | Value |
